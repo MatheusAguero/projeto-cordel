@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'PassionOne';
+    src: url(Passion_One/PassionOne-Black.ttf) format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PassionOne';
+    src: url(Passion_One/PassionOne-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PassionOne';
+    src: url('Passion_One/PassionOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Sriracha';
+    src: url('Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+header > h1{
+    text-align: center;
+    font-family:'PassionOne', Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    font-size: 76px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+header > h1 > strong {
+    font-weight: bold;
+    font-size: 53px;
+
+}
+header > h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+header > h2 > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1.6em;
+    font-size: 18px;
+}
+p {
+    font-size: 27px;
+    font-family: 'Sriracha', sans-serif;
+    font-weight: normal;
+
+    line-height: 2em;
+}
+.versos{
+    margin: 0px;
+    padding: 30px 30px 30px 30px;
+}
+#verso2{
+    background: black url('pacote-d012/imagens/background001.jpg') center right / cover no-repeat fixed;
+    color: white;
+    align-content: center;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+#verso4{
+    background: black url('pacote-d012/imagens/background002.jpg')   left center / cover no-repeat fixed;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);  
+}
+.paragrafodestaque{
+    background-color: rgba(0, 0, 0, 0.551);
+    color: white;
+    border-radius: 10px;
+    display: block;
+    width: 350px;
+    padding: 5x;
+}
+.paragrafodestaque > p{
+    padding: 10px;
+    margin: 0px;
+}
+footer{
+    background-color: black;
+    margin: 0px;
+}
+footer > p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0px;
+
+}
+footer > p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
